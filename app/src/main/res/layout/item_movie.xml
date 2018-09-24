@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivMovieImage"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ivMovieImage"
+        tools:text="Captain America Civil War"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/ivMovieImage" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_toEndOf="@+id/ivMovieImage"
+        tools:text="FDOIFJDOFIDJS:FOIadfoiadfj;aodfija ;fdoiaj ;doiajdf;oiajdf; aoidjf a;odifja;odfija;odifj a;odifja;odifja;oidfja;odif a;oi djaodifjsoid fjso ijfsoidfj sodifjoewufhaweonvoziv ozsidvjso"
+        android:layout_toRightOf="@+id/ivMovieImage" />
+</RelativeLayout>
